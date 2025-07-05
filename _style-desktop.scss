@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #f7e1d7;
+    .navbar {
+        position: fixed;
+        display: flex;
+        flex-flow: column nowrap;
+        max-width: 70px;
+        width: 70px;
+        height: 100vh;
+        background-color: #ff204e;
+        z-index: 1000;
+        .logo__mobile {
+            display: none;
+        }
+        .navbar__icon__cont {
+            height: 100%;
+            flex: 1;
+            padding-top: 20px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 5px;
+        }
+        .login__icon__footer {
+            display: block;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            img {
+                width: 35px;
+            }
+        }
+    }
+    .navbar__links__cont {
+        display: none;
+    }
+    .upperbar {
+        display: block;
+        position: absolute;
+        height: 150px;
+        width: 100%;
+        background-color: #201d33;
+        .upperbar__cont{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            .upperbar__left {
+                display: flex;
+                align-self: center;
+                margin-left: 80px;
+                margin-top: 10px;
+                a {
+                    img {
+                        max-height: 130px;
+                        align-self: center;
+                    }
+                }
+            }
+            .upperbar__right {
+                display: flex;
+                margin-right: 20px;
+                align-self: center;
+                flex-direction: row;
+                gap: 5px;
+                .login__text {
+                    color: white;
+                    max-width: 250px;
+                    margin-top: 10px;
+                }
+                .buttons {
+                    display: flex; 
+                    flex-flow: column wrap;
+                    align-content: space-between;
+                    gap: 5px;
+                    .login__button {
+                        background-color: #f0f0f0;
+                        padding: 10px 40px;
+                        border-radius: 15px;
+                        text-align: center;
+                        text-decoration: none;
+                    }
+                    .signup__button {
+                        background-color: #f0f0f0;
+                        padding: 10px 40px;
+                        border-radius: 15px;
+                        text-align: center;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @import "body-index-d";
+    @import "body-about-d";
+    @import "body-actividades-d";
+    @import "body-buenas-practicas-d";
+    @import "body-contacto-d";
+    @import "body-404-d";
+
+    .footer {
+        height: 150px;
+        width: 100%;
+        background-color: #201d33;
+        position: fixed;
+        bottom: 0;
+        margin-top: 10px;
+        padding-left: 90px;
+        padding-right: 25px;
+        padding-top: 20px;
+        .footer__cont {
+            margin-top: 0px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            .footer__left {
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: flex-start;
+                gap: 10px;
+                .rrss__text {
+                    display: block;
+                    font-size: 17px;
+                    color: white;
+                }
+                .rrss__img__cont {
+                    display: flex;
+                    flex-flow: row wrap;
+                    gap: 10px;
+                    img {
+                        width: 30px;
+                    }
+                }
+            }
+            .footer__right {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+                img {
+                    display: block;
+                    max-width: 100px;
+                }
+                .page__info {
+                    margin-top: 5px;
+                    font-size: 17px;
+                    color: white;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    text-align: right;
+                    justify-self: center;
+                    line-height: 6px;
+                }
+            }
+        }
+    }
+}

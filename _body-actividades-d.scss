@@ -1,0 +1,18 @@
+.body__actividades__cont {
+    margin-left: 90px;
+    margin-right: 20px;
+    padding-top: 170px;
+    .body__actividades__title {
+        padding-left: 40px;
+        padding-bottom: 20px;
+        h1 {
+            text-align: center;
+        }
+    }
+    .actividades__cont {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+}

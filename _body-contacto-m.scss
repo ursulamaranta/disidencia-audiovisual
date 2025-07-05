@@ -1,0 +1,30 @@
+.body__contacto__cont {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+    .contacto__cont {
+        display: block;
+        .contacto__1 {
+            max-width: 100%;
+        }
+        .contacto__2 {
+            .googlemaps {
+                max-width: 100%;
+                padding-left: 10px;
+            }
+        }
+    }
+    .contacto__message {
+        h1 {
+            padding-top: 15px;
+        }
+        .contacto__message__input {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            max-width: 100%;
+            padding-top: 10px;
+        }
+    }
+}

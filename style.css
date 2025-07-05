@@ -1,0 +1,613 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Noto Sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffe8dc;
+}
+body .d-inline-block {
+  position: block;
+  bottom: 1;
+  padding-top: 20px;
+}
+body .navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #201d33;
+  height: 80px;
+}
+body .navbar .logo__mobile img {
+  max-height: 90%;
+  max-width: 130px;
+  margin-top: 0px;
+}
+body .navbar .navbar__icon__cont {
+  display: none;
+}
+body .navbar .navbar__icon__cont a {
+  text-decoration: none;
+}
+body .navbar .navbar__icon__cont img {
+  width: 35px;
+  height: auto;
+}
+body .navbar__links__cont {
+  display: flex;
+  padding: 7px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #201d33;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+}
+body .navbar__links__cont a {
+  text-decoration: none;
+  color: white;
+  margin: 2px;
+}
+body .login__icon__footer {
+  display: none;
+}
+body .upperbar {
+  display: none;
+}
+body .body__cont {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body .body__cont h1 {
+  text-align: center;
+}
+body .body__index__cont .home__welcome__title {
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+body .body__index__cont .home__welcome__cont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+body .body__index__cont .home__welcome__cont .home__welcome__left img {
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 100%;
+}
+body .body__index__cont .home__welcome__cont .home__welcome__right p {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+body .body__index__cont .home__news {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+}
+body .body__index__cont .contacto__button__cont {
+  padding-bottom: 20px;
+  justify-self: center;
+  max-width: 100%;
+}
+body .body__about__cont {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body .body__about__cont .about__title h1 {
+  text-align: center;
+}
+body .body__about__cont .about__cont {
+  padding-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+body .body__about__cont .about__cont .about__left img {
+  border-radius: 20px;
+  max-width: 100%;
+}
+body .body__about__cont .about__cont .about__right {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body .body__about__cont .about__cont .about__right p {
+  text-align: center;
+}
+body .body__about__cont .about__images__cont {
+  margin-top: 55px;
+}
+body .body__about__cont .about__images__cont .about__images__title h1 {
+  text-align: center;
+}
+body .body__about__cont .about__images__cont .about__images {
+  padding-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: center;
+}
+body .body__about__cont .about__images__cont .about__images .about__pic1 {
+  max-height: 400px;
+}
+body .body__about__cont .about__images__cont .about__images img {
+  border-radius: 15px;
+  max-width: 100%;
+}
+body .body__actividades__cont {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body .body__actividades__cont .body__actividades__title {
+  padding-bottom: 20px;
+}
+body .body__actividades__cont .body__actividades__title h1 {
+  text-align: center;
+}
+body .body__actividades__cont .actividades__cont {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  justify-content: center;
+}
+body .body__buenaspracticas__cont {
+  padding-top: 30px;
+  padding-bottom: 180px;
+}
+body .body__buenaspracticas__cont .buenaspracticas__title h1 {
+  text-align: center;
+}
+body .body__buenaspracticas__cont .buenaspracticas__text {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body .body__buenaspracticas__cont .buenaspracticas__text p {
+  text-align: center;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__1 {
+  display: flex;
+  flex-direction: column;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__1 .buenaspracticas__link__1 {
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__1 a img {
+  max-width: 200px;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__2 {
+  display: flex;
+  flex-direction: column;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__2 .buenaspracticas__link__2 {
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__2 a img {
+  max-width: 200px;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__3 {
+  display: flex;
+  flex-direction: column;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__3 .buenaspracticas__link__3 {
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__3 a img {
+  max-width: 200px;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__4 {
+  display: flex;
+  flex-direction: column;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__4 .buenaspracticas__link__4 {
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+body .body__buenaspracticas__cont .buenaspracticas__cont .buenaspracticas__4 a img {
+  max-width: 200px;
+}
+body .footer {
+  position: fixed;
+  bottom: 0;
+}
+body .body__contacto__cont {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 200px;
+}
+body .body__contacto__cont .contacto__cont {
+  display: block;
+}
+body .body__contacto__cont .contacto__cont .contacto__1 {
+  max-width: 100%;
+}
+body .body__contacto__cont .contacto__cont .contacto__2 .googlemaps {
+  max-width: 100%;
+  padding-left: 10px;
+}
+body .body__contacto__cont .contacto__message h1 {
+  padding-top: 15px;
+}
+body .body__contacto__cont .contacto__message .contacto__message__input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 100%;
+  padding-top: 10px;
+}
+body footer {
+  width: 100%;
+  height: 150px;
+  position: static;
+  background-color: #201d33;
+  border-top: solid 2px white;
+}
+body footer .footer__cont {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  align-items: center;
+}
+body footer .footer__cont .footer__left {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  line-height: 0px;
+}
+body footer .footer__cont .footer__left .rrss__text {
+  display: none;
+}
+body footer .footer__cont .footer__left .rrss__img__cont {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  justify-content: center;
+}
+body footer .footer__cont .footer__left .rrss__img__cont img {
+  width: 25px;
+}
+body footer .footer__cont .footer__right .page__info {
+  padding-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  line-height: 1px;
+}
+body footer .footer__cont .footer__right img {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body {
+    background-color: #f7e1d7;
+  }
+  body .navbar {
+    position: fixed;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 70px;
+    width: 70px;
+    height: 100vh;
+    background-color: #ff204e;
+    z-index: 1000;
+  }
+  body .navbar .logo__mobile {
+    display: none;
+  }
+  body .navbar .navbar__icon__cont {
+    height: 100%;
+    flex: 1;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 5px;
+  }
+  body .navbar .login__icon__footer {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .navbar .login__icon__footer img {
+    width: 35px;
+  }
+  body .navbar__links__cont {
+    display: none;
+  }
+  body .upperbar {
+    display: block;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: #201d33;
+  }
+  body .upperbar .upperbar__cont {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body .upperbar .upperbar__cont .upperbar__left {
+    display: flex;
+    align-self: center;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  body .upperbar .upperbar__cont .upperbar__left a img {
+    max-height: 130px;
+    align-self: center;
+  }
+  body .upperbar .upperbar__cont .upperbar__right {
+    display: flex;
+    margin-right: 20px;
+    align-self: center;
+    flex-direction: row;
+    gap: 5px;
+  }
+  body .upperbar .upperbar__cont .upperbar__right .login__text {
+    color: white;
+    max-width: 250px;
+    margin-top: 10px;
+  }
+  body .upperbar .upperbar__cont .upperbar__right .buttons {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    gap: 5px;
+  }
+  body .upperbar .upperbar__cont .upperbar__right .buttons .login__button {
+    background-color: #f0f0f0;
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  body .upperbar .upperbar__cont .upperbar__right .buttons .signup__button {
+    background-color: #f0f0f0;
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  body body {
+    margin-bottom: 10px;
+  }
+  body .body__index__cont {
+    color: black;
+    padding-top: 200px;
+    padding-left: 90px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+  }
+  body .body__index__cont .home__carousel {
+    justify-self: center;
+    display: flex;
+    max-width: 700px;
+    max-height: 500px;
+  }
+  body .body__index__cont .home__carousel .carousel-inner h5 {
+    color: black;
+  }
+  body .body__index__cont .home__carousel .carousel-inner p {
+    color: black;
+  }
+  body .body__index__cont .home__welcome__title {
+    padding-top: 45px;
+    text-align: center;
+  }
+  body .body__index__cont .home__welcome__cont {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    padding-top: 45px;
+    justify-content: center;
+  }
+  body .body__index__cont .home__welcome__cont .home__welcome__left img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  body .body__index__cont .home__welcome__cont .home__welcome__right {
+    max-width: 650px;
+    align-self: center;
+  }
+  body .body__index__cont .home__welcome__cont .home__welcome__right p {
+    font-size: 23px;
+    text-align: left;
+  }
+  body .body__index__cont .home__news {
+    display: flex;
+    margin-top: 40px;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  body .body__index__cont .contacto__button__cont {
+    margin-top: 20px;
+    max-width: 600px;
+    justify-self: center;
+  }
+  body .body__about__cont {
+    margin-left: 90px;
+    margin-right: 20px;
+    padding-top: 170px;
+  }
+  body .body__about__cont .about__cont {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  body .body__about__cont .about__cont .about__left img {
+    max-width: min-content;
+  }
+  body .body__about__cont .about__cont .about__right p {
+    font-size: 20px;
+    text-align: left;
+  }
+  body .body__actividades__cont {
+    margin-left: 90px;
+    margin-right: 20px;
+    padding-top: 170px;
+  }
+  body .body__actividades__cont .body__actividades__title {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+  body .body__actividades__cont .body__actividades__title h1 {
+    text-align: center;
+  }
+  body .body__actividades__cont .actividades__cont {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: center;
+  }
+  body .body__buenaspracticas__cont {
+    padding-top: 210px;
+    margin-left: 90px;
+    margin-right: 20px;
+    padding-bottom: 100px;
+  }
+  body .body__buenaspracticas__cont .buenaspracticas__cont {
+    padding-top: 30px;
+  }
+  body .body__contacto__cont {
+    padding-top: 180px;
+    padding-left: 90px;
+    padding-right: 20px;
+  }
+  body .body__contacto__cont .contacto__title h1 {
+    text-align: center;
+  }
+  body .body__contacto__cont .contacto__cont {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 15px;
+  }
+  body .body__contacto__cont .contacto__cont .contacto__1 {
+    align-self: center;
+  }
+  body .body__contacto__cont .contacto__cont .contacto__1 p {
+    font-size: 20px;
+  }
+  body .body__contacto__cont .contacto__message {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  body .body__contacto__cont .contacto__message h1 {
+    text-align: center;
+  }
+  body .footer {
+    height: 150px;
+    width: 100%;
+    background-color: #201d33;
+    position: fixed;
+    bottom: 0;
+    margin-top: 10px;
+    padding-left: 90px;
+    padding-right: 25px;
+    padding-top: 20px;
+  }
+  body .footer .footer__cont {
+    margin-top: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  body .footer .footer__cont .footer__left {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  body .footer .footer__cont .footer__left .rrss__text {
+    display: block;
+    font-size: 17px;
+    color: white;
+  }
+  body .footer .footer__cont .footer__left .rrss__img__cont {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+  }
+  body .footer .footer__cont .footer__left .rrss__img__cont img {
+    width: 30px;
+  }
+  body .footer .footer__cont .footer__right {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  body .footer .footer__cont .footer__right img {
+    display: block;
+    max-width: 100px;
+  }
+  body .footer .footer__cont .footer__right .page__info {
+    margin-top: 5px;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: right;
+    justify-self: center;
+    line-height: 6px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

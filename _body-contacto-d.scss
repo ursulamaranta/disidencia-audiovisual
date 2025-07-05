@@ -1,0 +1,31 @@
+.body__contacto__cont {
+    padding-top: 180px;
+    padding-left: 90px;
+    padding-right: 20px;
+    .contacto__title {
+        h1 {
+            text-align: center;
+        }
+    }
+    .contacto__cont {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 15px;
+        .contacto__1 {
+            align-self: center;
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+    .contacto__message {
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+        h1 {
+            text-align: center;
+        }
+    }
+}

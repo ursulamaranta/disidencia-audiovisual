@@ -344,6 +344,9 @@ body footer .footer__cont .footer__right img {
     font-style: normal;
   }
   body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #f7e1d7;
   }
   body .navbar {
@@ -440,6 +443,7 @@ body footer .footer__cont .footer__right img {
     margin-bottom: 10px;
   }
   body .body__index__cont {
+    flex: 1 0 auto;
     color: black;
     padding-top: 200px;
     padding-left: 90px;
@@ -574,12 +578,13 @@ body footer .footer__cont .footer__right img {
     height: 150px;
     width: 100%;
     background-color: #201d33;
-    position: fixed;
+    position: static;
     bottom: 0;
     margin-top: 10px;
     padding-left: 90px;
     padding-right: 25px;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
   body .footer .footer__cont {
     margin-top: 0px;

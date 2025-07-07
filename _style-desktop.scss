@@ -8,6 +8,9 @@
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #f7e1d7;
     .navbar {
         position: fixed;
@@ -113,12 +116,13 @@ body {
         height: 150px;
         width: 100%;
         background-color: #201d33;
-        position: fixed;
+        position: static;
         bottom: 0;
         margin-top: 10px;
         padding-left: 90px;
         padding-right: 25px;
         padding-top: 20px;
+        padding-bottom: 20px;
         .footer__cont {
             margin-top: 0px;
             display: flex;

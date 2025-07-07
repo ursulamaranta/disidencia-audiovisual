@@ -113,7 +113,7 @@ body .body__index__cont .contacto__button__cont {
 }
 body .body__about__cont {
   padding-top: 40px;
-  padding-bottom: 200px;
+  padding-bottom: 40px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -160,7 +160,7 @@ body .body__about__cont .about__images__cont .about__images img {
 }
 body .body__actividades__cont {
   padding-top: 30px;
-  padding-bottom: 230px;
+  padding-bottom: 40px;
 }
 body .body__actividades__cont .body__actividades__title {
   padding-bottom: 20px;
@@ -176,7 +176,7 @@ body .body__actividades__cont .actividades__cont {
 }
 body .body__buenaspracticas__cont {
   padding-top: 30px;
-  padding-bottom: 180px;
+  padding-bottom: 40px;
 }
 body .body__buenaspracticas__cont .buenaspracticas__title h1 {
   text-align: center;
@@ -257,7 +257,7 @@ body .body__contacto__cont {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 200px;
+  padding-bottom: 40px;
 }
 body .body__contacto__cont .contacto__cont {
   display: block;
@@ -282,7 +282,6 @@ body .body__contacto__cont .contacto__message .contacto__message__input {
 body .body__404__cont {
   display: flex;
   flex-direction: column;
-  padding-top: 200px;
   justify-self: center;
 }
 body .body__404__cont h1 {
@@ -535,7 +534,6 @@ body footer .footer__cont .footer__right img {
     padding-top: 210px;
     margin-left: 90px;
     margin-right: 20px;
-    padding-bottom: 100px;
   }
   body .body__buenaspracticas__cont .buenaspracticas__cont {
     padding-top: 30px;
@@ -571,7 +569,8 @@ body footer .footer__cont .footer__right img {
   }
   body .body__404__cont {
     padding-left: 110px;
-    padding-top: 450px;
+    padding-top: 350px;
+    padding-bottom: 200px;
     display: flex;
   }
   body .footer {

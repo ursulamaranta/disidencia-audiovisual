@@ -448,7 +448,6 @@ body footer .footer__cont .footer__right img {
     padding-top: 200px;
     padding-left: 90px;
     padding-right: 20px;
-    padding-bottom: 100px;
   }
   body .body__index__cont .home__carousel {
     justify-self: center;
@@ -494,6 +493,7 @@ body footer .footer__cont .footer__right img {
   }
   body .body__index__cont .contacto__button__cont {
     margin-top: 20px;
+    padding-bottom: 40px;
     max-width: 600px;
     justify-self: center;
   }

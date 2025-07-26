@@ -1,8 +1,10 @@
 .body__index__cont {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
     .home__welcome__title {
-        margin-top: 20px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-top: 30px;
         text-align: center;
     }
     .home__welcome__cont {
@@ -39,6 +41,5 @@
     .contacto__button__cont {
         justify-self: center;
         max-width: 100%;
-        padding-bottom: 210px;
     }
 }

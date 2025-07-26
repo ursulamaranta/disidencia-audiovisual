@@ -72,10 +72,14 @@ body .body__cont {
 body .body__cont h1 {
   text-align: center;
 }
-body .body__index__cont .home__welcome__title {
+body .body__index__cont {
   margin-top: 20px;
+  padding-bottom: 40px;
   padding-left: 15px;
   padding-right: 15px;
+}
+body .body__index__cont .home__welcome__title {
+  padding-top: 30px;
   text-align: center;
 }
 body .body__index__cont .home__welcome__cont {
@@ -108,7 +112,6 @@ body .body__index__cont .home__news {
 body .body__index__cont .contacto__button__cont {
   justify-self: center;
   max-width: 100%;
-  padding-bottom: 210px;
 }
 body .body__about__cont {
   padding-top: 20px;
@@ -158,6 +161,7 @@ body .body__about__cont .about__images__cont .about__images img {
   max-width: 100%;
 }
 body .body__actividades__cont {
+  min-height: 100vh;
   padding-top: 30px;
   padding-bottom: 40px;
 }
@@ -254,15 +258,11 @@ body .body__buenaspracticas__cont .buenaspracticas__bottom__text {
   justify-self: center;
   text-align: center;
 }
-body .footer {
-  position: fixed;
-  bottom: 0;
-}
 body .body__contacto__cont {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 body .body__contacto__cont .contacto__cont {
   display: block;
@@ -453,6 +453,7 @@ body footer .footer__cont .footer__right img {
     padding-top: 200px;
     padding-left: 90px;
     padding-right: 20px;
+    padding-bottom: 40px;
   }
   body .body__index__cont .home__carousel {
     justify-self: center;
@@ -498,7 +499,6 @@ body footer .footer__cont .footer__right img {
   }
   body .body__index__cont .contacto__button__cont {
     margin-top: 20px;
-    padding-bottom: 40px;
     max-width: 600px;
     justify-self: center;
   }
@@ -519,9 +519,11 @@ body footer .footer__cont .footer__right img {
     text-align: left;
   }
   body .body__actividades__cont {
+    min-height: 100vh;
     margin-left: 90px;
     margin-right: 20px;
-    padding-top: 170px;
+    padding-top: 180px;
+    padding-bottom: 1100px;
   }
   body .body__actividades__cont .body__actividades__title {
     padding-left: 40px;
@@ -549,9 +551,11 @@ body footer .footer__cont .footer__right img {
     padding-top: 50px;
   }
   body .body__contacto__cont {
+    min-height: 100vh;
     padding-top: 180px;
     padding-left: 90px;
     padding-right: 20px;
+    padding-bottom: 30px;
   }
   body .body__contacto__cont .contacto__title h1 {
     text-align: center;

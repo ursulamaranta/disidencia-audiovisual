@@ -1,6 +1,6 @@
 .body__buenaspracticas__cont {
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 170px;
     .buenaspracticas__title {
         h1 {
             text-align: center;
@@ -82,6 +82,12 @@
                 }
             }
         }
+    }
+    .buenaspracticas__bottom__text {
+        display:flex;
+        padding-top: 50px;
+        justify-self: center;
+        text-align: center;
     }
 }
 

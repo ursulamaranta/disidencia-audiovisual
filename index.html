@@ -18,10 +18,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+
     <!-- =================FIN FONTS=================-->
     <link rel="stylesheet" href="style.css">
+
+    <!-- =================BOOSTSTRAP=================-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- =================AOS=================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Home - Disidencia Audiovisual</title>
 </head>
 
@@ -152,8 +160,8 @@
             </div>
         </div>
         <div class="home__welcome__title">
-            <h1>Disidencia Audiovisual</h1>
-            <p>Por espacios de trabajo dignos para el trabajo audiovisual.</p>
+            <h1 data-aos="fade-up" data-aos-duration="1000">Disidencia Audiovisual</h1>
+            <p data-aos="fade-up" data-aos-duration="1000">Por espacios de trabajo dignos para el trabajo audiovisual.</p>
         </div>
         <div class="home__welcome__cont">
             <div class="home__welcome__left">
@@ -166,7 +174,7 @@
             </div>
         </div>
         <div class="home__news">
-            <div class="card border-primary mb-2" id="home__card__1" style="width: 18rem;">
+            <div data-aos="fade-up" data-aos-duration="1000" class="card border-primary mb-2" id="home__card__1" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Ley Karín</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">En el audiovisual</h6>
@@ -175,7 +183,7 @@
                     <a href="https://forms.gle/apsyJTd1fReewrbn7" class="card-link">Responde aquí</a>
                 </div>
             </div>
-            <div class="card border-danger mb-2" id="home__card__2" style="width: 18rem;">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="card border-danger mb-2" id="home__card__2" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Reunión ordinaria</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">Disidencia Audiovisual</h6>
@@ -184,7 +192,7 @@
                     <a href="pages/actividades.html" class="card-link">Ir a Actividades</a>
                 </div>
             </div>
-            <div class="card border-success mb-2" id="home__card__3" style="width: 18rem;">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="card border-success mb-2" id="home__card__3" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Convocatorias abiertas</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">Festivales de cine disidentes</h6>
@@ -192,7 +200,7 @@
                     <a href="pages/actividades.html" class="card-link">Ir a Actividades</a>
                 </div>
             </div>
-            <div class="card border-info mb-2" id="home__card__4" style="width: 18rem;">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="card border-info mb-2" id="home__card__4" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Instructivos de buenas prácticas</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">Aprobados por SINTECI</h6>
@@ -200,7 +208,7 @@
                     <a href="pages/buenas-practicas.html" class="card-link">Ir a Buenas Prácticas</a>
                 </div>
             </div>
-            <div class="card border-warning mb-3" id="home__card__5" style="width: 18rem;">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="card border-warning mb-3" id="home__card__5" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Tenemos sede!</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">Disidencia Audiovisual</h6>
@@ -264,9 +272,16 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
+
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init()
     </script>
 </body>
 

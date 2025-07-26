@@ -1,11 +1,7 @@
 .body__404__cont {
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    h1 {
-        text-align: center;
-    }
-    p {
-        text-align: center;
-    }
+    align-items: center;
+    justify-content: center;
 }

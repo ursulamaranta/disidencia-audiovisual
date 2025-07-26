@@ -288,15 +288,11 @@ body .body__contacto__cont .contacto__message .contacto__message__input {
   padding-top: 10px;
 }
 body .body__404__cont {
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-self: center;
-}
-body .body__404__cont h1 {
-  text-align: center;
-}
-body .body__404__cont p {
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 body footer {
   width: 100%;
@@ -434,17 +430,29 @@ body footer .footer__cont .footer__right img {
   }
   body .upperbar .upperbar__cont .upperbar__right .buttons .login__button {
     background-color: #f0f0f0;
+    color: #201d33;
     padding: 10px 40px;
     border-radius: 15px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  body .upperbar .upperbar__cont .upperbar__right .buttons .login__button:hover {
+    background-color: #ff204e;
+    color: white;
   }
   body .upperbar .upperbar__cont .upperbar__right .buttons .signup__button {
     background-color: #f0f0f0;
+    color: #201d33;
     padding: 10px 40px;
     border-radius: 15px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  body .upperbar .upperbar__cont .upperbar__right .buttons .signup__button:hover {
+    background-color: #ff204e;
+    color: white;
   }
   body body {
     margin-bottom: 10px;
@@ -585,6 +593,7 @@ body footer .footer__cont .footer__right img {
     text-align: center;
   }
   body .body__404__cont {
+    min-height: 85vh;
     padding-left: 110px;
     padding-top: 350px;
     padding-bottom: 200px;

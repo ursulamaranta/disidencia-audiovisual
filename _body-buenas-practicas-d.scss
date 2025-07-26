@@ -1,8 +1,12 @@
 .body__buenaspracticas__cont {
+    min-height: 85vh;
     padding-top: 210px;
     margin-left: 90px;
     margin-right: 20px;
     .buenaspracticas__cont {
         padding-top: 30px;
+    }
+    .buenaspracticas__bottom__text {
+        padding-top: 50px;
     }
 }

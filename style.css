@@ -21,6 +21,9 @@ body .d-inline-block {
   position: block;
   bottom: 1;
 }
+body h1 {
+  font-family: Oswald, sans-serif;
+}
 body .navbar {
   display: flex;
   justify-content: center;
@@ -555,7 +558,7 @@ body footer .footer__cont .footer__right img {
     padding-top: 180px;
     padding-left: 90px;
     padding-right: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 1000px;
   }
   body .body__contacto__cont .contacto__title h1 {
     text-align: center;

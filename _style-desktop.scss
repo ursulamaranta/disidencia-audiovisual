@@ -117,12 +117,12 @@ body {
         }
     }
 
-    @import "body-index-d";
-    @import "body-about-d";
-    @import "body-actividades-d";
-    @import "body-buenas-practicas-d";
-    @import "body-contacto-d";
-    @import "body-404-d";
+    @import "sass/DESKTOP/body-index-d";
+    @import "sass/DESKTOP/body-about-d";
+    @import "sass/DESKTOP/body-actividades-d";
+    @import "sass/DESKTOP/body-buenas-practicas-d";
+    @import "sass/DESKTOP/body-contacto-d";
+    @import "sass/DESKTOP/body-404-d";
 
     .footer {
         height: 150px;

@@ -77,12 +77,12 @@ body {
         }
     }
 
-    @import "body-index-m";
-    @import "body-about-m";
-    @import "body-actividades-m";
-    @import "body-buenas-practicas-m";
-    @import "body-contacto-m";
-    @import "body-404-m";
+    @import "sass/MOBILE/body-index-m";
+    @import "sass/MOBILE/body-about-m";
+    @import "sass/MOBILE/body-actividades-m";
+    @import "sass/MOBILE/body-buenas-practicas-m";
+    @import "sass/MOBILE/body-contacto-m";
+    @import "sass/MOBILE/body-404-m";
 
     footer {
         width: 100%;

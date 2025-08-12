@@ -1,4 +1,4 @@
-<h1 align="center">Hola! 👋 Soy Úrsula y esta es mi tercera entrega de</h1>
+<h1 align="center">Hola! 👋 Soy Úrsula y esta es mi uuuuuuuultima entrega de</h1>
 
 ###
 
@@ -12,11 +12,7 @@
 
 ###
 
-<p align="left">Cosas nuevas para considerar:<br>- La verdad es que no hay muhcas actualizaciones, animaciones en las imágenes, en la mayoría de los botones de "Buenas prácticas", y un hover para los botones de login que llevan al 404<br>- Hay un padding de más de 1000px que no supe como dejarlo normal, solo sé que se ponía bien desde los 1000px, aiuda<br>- Problema del footer arreglado! (kinda)<br>- Si revisan el arbol de esto podrán observar que es UN TREMENDO DESASTRE. Caí en pánico por unos bugs que al final solo lo generaba el hecho de que el navegador no estaba leyendo bien el código y terminé haciendo 2 branches<br>- No alcancé a hacerle un menú desplegable decente a la versión mobile 😭😭😭<br>- Todo mal ;_;</p>
-
-###
-
-<p align="left">Cositas para considerar (las de siempre):<br>- La página específica que está más pensada que sea responsive es el home o "index". Pero también puede ser "Actividades".<br>- A pesar de ello, todas las páginas tienen una interfaz principal responsiva: una de desktop, y una mobile.<br>- La arquitectura principal de la página está hecha en flexbox.</p>
+<p align="left">Cosas nuevas para considerar:<br>- Favicons cambiados!<br>- Creo que el fondo ya está sin el color predefinido. Es que al final preferí dejarlo en blanco. El color damasco de las primeras versiones no me terminó de convencer.<br>- Hay más orden en los archivos :D</p>
 
 ###
 
@@ -28,6 +24,6 @@
 
 ###
 
-<p align="left">Sinceramente creo que el avance es bastante soso en comparación a lo que he hecho anteriormente, lo siento mucho 🙏<br>El pánico de los branches me hizo retroceder bastante y- por consiguiente- perder bastante tiempo ;----;</p>
+<p align="left">Muchas gracias por toda la ayuda prestada. Siento no haber respondido tu mensaje en la corrección. Este mes tuve muchos problemas, un luto de por medio y en general mucho caos en mi vida de esos que te hacen subir la dosis de la sertralina ;_____;</p>
 
 ###
